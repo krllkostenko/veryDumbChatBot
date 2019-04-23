@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Title</title>
+</head>
+<body>
+<div class="wrapper">
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+            <div class="row">
+                <span class="received-message">
+                    <h1>Bot</h1>
+                </span>
+                <span class="sent-message">
+                        <h1>You</h1>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="input-message">
+        <img src="img/question-mark.png" class="info"data-toggle="tooltip" data-placement="top" title="Say 'Bye' to end conversation."width="25px" height="25px" >
+        <input id="message-text" type="text" placeholder="Type here...">
+        <button type="button" id="sendMessage" class="btn btn-lg btn-info">Send</button>
+    </div>
+</div>
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/tools.js"></script>
+<script src="js/botResponse.js"></script>
+<script src="js/chat.js"></script>
+<script src="js/getResponses.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
